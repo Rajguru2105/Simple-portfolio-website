@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Young Serif", serif;
+}
+.main{
+    padding: 30px;
+}
+.header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.header__contact{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+}
+.header__role{
+    font-size: 20px;
+}
+.container,.interest,.project,.footer{
+    margin-top: 20px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer a{
+    color: skyblue;
+}   
+.interest__desc li,.project__desc li{
+    list-style: none;
+}
+.interest{
+    background-color: blue;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    padding: 20px;
+    color: white;
+}
+.interest__desc{
+    padding-top: 10px;
+}
+.interest__title{
+    padding-top: 10px;
+}
+.project{
+    background-color: orangered;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    padding: 20px;
+    color: white;
+}
+.contact-form{
+    margin-top: 20px;
+}
+.contact-form__input,.contact-form__message,.contact-form__submit{
+    margin-top: 20px;
+}
+.contact-form__input{
+    border-style: none;
+    padding: 10px;
+    border-bottom: solid black 1px;
+}
+.contact-form__message{
+    border-style: none;
+    padding: 10px;
+    border: solid black 1px;
+}
+.contact-form__submit{
+    padding: 10px 10px 10px 10px;
+    background-color: orangered;
+}
